@@ -2,6 +2,8 @@ import hashlib
 import sys
 import time
 
+print("This is a MD5 hash Programme written by hash_f(x)")
+
 def timing(f):
     def wrap(*args):
         time1 = time.time()
